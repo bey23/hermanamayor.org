@@ -1,32 +1,39 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Quienes Somos</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                            {% endfor %}
+                <div class="col-lg-10 col-lg-offset-1">
+                    <p class="large text-muted">
+                      Hermana Mayor surge de la creciente necesidad que hemos observado a lo largo de
+                      nuestra larga trayectoria profesional de dar un apoyo a las familias que
+                      demandan una orientación a la hora de afrontar los estudios de sus hijos.
+                      Nosotros vamos más allá, añadiendo un componente humano y psicosocial en
+                      nuestras intervenciones, para garantizar el éxito no sólo en lo académico, sino
+                      también en lo personal.<br /><br />
 
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                      <strong>¿Por qué Hermana Mayor?</strong> Por todo lo que esa figura implica en cuanto a
+                      protección, consejo, cuidado, comprensión, escucha, diálogo, cariño, etc.
+                      Porque creemos que tu hijo y tú, podéis necesitar una figura externa,
+                      totalmente objetiva que se desvincule de vuestra realidad diaria y os guíe para
+                      resolver de manera proactiva vuestros conflictos diarios que no os dejan
+                      alcanzar el equilibrio y avanzar en vuestra relación.<br /><br />
+
+                      Pensamos que los resultados tangibles son importantes, y para ello nos
+                      adaptamos a los estándares que desde las instituciones oficiales se solicitan;
+                      pero a su vez tenemos la firme creencia de que el éxito y la excelencia se
+                      logran por medio de actitudes, que se pueden trabajar y perfilar.<br /><br />
+
+                      En Hermana Mayor tendrás a tu disposición un equipo de profesionales, que en
+                      colaboración con otros expertos del ámbito educativo van a ofrecer a tu familia
+                      un servicio integral a la familia lo más completo posible y adaptado a tus
+                      necesidades específicas.
+                    </p>
                 </div>
             </div>
         </div>
